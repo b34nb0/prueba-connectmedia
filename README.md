@@ -1,6 +1,6 @@
 # Prueba-ConnectMedia  
   
-Project build with Node.js, MongoDB and React  
+Test web app build with Node.js, MongoDB and React  
 
 ## Web API endpoints:  
 * (POST) _/products/load-json_ -> takes json input containing an array of products and inserts them in a MongoDB collection hosted in MongoDB Atlas*  
