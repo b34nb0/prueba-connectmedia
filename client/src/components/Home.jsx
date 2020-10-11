@@ -18,7 +18,7 @@ function Home() {
     }, []);
 
     function loadData() {
-        Axios.get('http://localhost:8080/products/')
+        Axios.get('/products')
             .then(res => { 
                 console.log("Home: loadData -> ", res.data);       
                 setProducts(res.data);
@@ -29,7 +29,7 @@ function Home() {
     }
 
     function popUpProduct(product_id) {
-        Axios.get('http://localhost:8080/products/'+product_id)
+        Axios.get(`/products/${product_id}`)
             .then(res => {
                 console.log("Home: setProduct -> ", res.data);
                 setSelectedProduct(res.data);
