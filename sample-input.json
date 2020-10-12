@@ -1,0 +1,34 @@
+{
+	"products" : [
+		{
+			"code" : "COD0001",
+			"name" : "Product 1",
+			"description" : "Description for product number 1",
+			"price" : 42.5
+		},
+		{
+			"code" : "COD0002",
+			"name" : "Product 2",
+			"description" : "Features, advantages and disadvantages of the second product...",
+			"price" : 46.5
+		},
+		{
+			"code" : "COD0003",
+			"name" : "Product 3",
+			"description" : "description 3",
+			"price" : 25
+		},
+		{
+			"code" : "COD0004",
+			"name" : "Product 4",
+			"description" : "Lorem ipsum dolet sit amos non seculare...",
+			"price" : 6.30
+		},
+		{
+			"code" : "COD0005",
+			"name" : "Product 5",
+			"description" : "description 5",
+			"price" : 34.01
+		}
+	]
+}
